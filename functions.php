@@ -19,6 +19,7 @@ register_nav_menus(
     )
 );
 
-// Funcao de suporte para o tema
+// Funcoes de suporte para o tema
 add_theme_support('custom-background');
 add_theme_support('custom-header');
+add_theme_support('post-thumbnails');

@@ -5,3 +5,5 @@
 .menu-principal ul li{display: inline;}
 
 .menu-rodape ul li{display: inline;}
+
+.wp-post-image{float: left; margin: 0 15px 10px 0; }
