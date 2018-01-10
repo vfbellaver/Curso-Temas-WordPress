@@ -18,3 +18,7 @@ register_nav_menus(
         'menu_rodape' => 'Menu Rodape'
     )
 );
+
+// Funcao de suporte para o tema
+add_theme_support('custom-background');
+add_theme_support('custom-header');
