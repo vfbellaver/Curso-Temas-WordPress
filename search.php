@@ -11,6 +11,11 @@
                     comments_template();
                 endif;
             endwhile;
+
+            the_posts_pagination(array(
+                'prev_text'     => 'Anterior',
+                'next_text'     => 'Próximo'
+            ));
             ?>
         </div>
     </main>

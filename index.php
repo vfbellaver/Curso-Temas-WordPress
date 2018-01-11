@@ -22,6 +22,16 @@
 
                                 <?php
                             endwhile;
+                            ?>
+                            <div class="row">
+                                <div class="paginacao text-left col-md-6">
+                                    <?php next_posts_link("<< Anteriores") ?>
+                                </div>
+                                <div class="paginacao text-right col-md-6">
+                                    <?php previous_posts_link("Mais novos >>") ?>
+                                </div>
+                            </div>
+                            <?php
                         else:
                             ?>
                             <p>Nao tem nada ainda pra mostrar</p>
