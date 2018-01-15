@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="noticias col-md-9">
+                    <div class="404 col-md-9">
                        <header>
                            <h1>Página não encontrada</h1>
                            <p>Infelizmente a página que você tentou acessar não existe neste site!</p>

@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="noticias col-md-9">
+                    <div class="archive col-md-9">
                         <?php
                         // Se houver algum post
                         the_archive_title('<h1 class="titulo-arquivos">','</h1>');

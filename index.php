@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="noticias col-md-9">
+                    <div class="blog col-md-9">
                         <?php
                         // Se houver algum post
                         if (have_posts()) :
