@@ -1,4 +1,6 @@
 <?php
+remove_action('wp_head','wp_generator') ;
+
 // Funcao para carregamento dos scripts
 function carrega_scripts()
 {

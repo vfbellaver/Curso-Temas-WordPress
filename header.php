@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php  language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
-    <title><?php wp_title() ?></title>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title><?php bloginfo('name'); ?> <?php wp_title('|') ?></title>
+    <meta name="description" content="<?php bloginfo('description')?>">
 
     <?php wp_head(); ?>
 
