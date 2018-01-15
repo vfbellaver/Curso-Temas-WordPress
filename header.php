@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Curso WordPress</title>
+    <title><?php wp_title() ?></title>
 
     <?php wp_head(); ?>
 
