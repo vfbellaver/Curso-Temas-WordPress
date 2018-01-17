@@ -28,6 +28,10 @@ h4{ font-size: 18px; margin-top: 0;}
 
 /* Slide */
 
+/* Mapa */
+.mapa .onde-estamos{background-color:#fcfae1; padding: 20px 0;}
+.mapa h1{text-align: center; margin: 0; text-transform: uppercase; color: #4c1b1b; font-weight: bold; }
+.mapa .wd-row{margin: 0;}
 
 /* Serviços */
 .servicos{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }
@@ -56,3 +60,6 @@ footer{ background: #000; padding: 15px 0; color: #fcfae1; }
 .post-format-image h1 { color: #fff; background: #717171; padding: 15px; }
 .post-format-video h1 { color: #fff; background: #211e1e; padding: 15px; }
 .post-format-padrao h1 { color: #444; background: #d2d2d2; padding: 15px; }
+
+/* SideBar */
+.wpcf7-submit{background:#b9121b; color: #ffffff;}
