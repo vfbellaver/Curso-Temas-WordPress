@@ -2,7 +2,7 @@
     <div class="conteudo">
         <main>
             <section class="slide">
-                <div class="container">Slide</div>
+                <?php motoPressSlider( "home-slider" ) ?>
             </section>
             <section class="servicos">
                 <div class="container">Serviços</div>
