@@ -1,6 +1,6 @@
 <article class="noticia-destaque">
     <div class="miniatura-subdestaque">
-        <a href="<?php the_permalink(); ?>">
+        <a title="<?php the_title_attribute()?>" href="<?php the_permalink(); ?>">
             <?php the_post_thumbnail('large', array('class' => 'img-responsive')); ?>
         </a>
     </div>

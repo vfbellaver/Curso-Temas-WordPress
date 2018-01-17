@@ -17,9 +17,8 @@
                         <div class="erro">
                             <p>Que tal fazer uma pesquisa?</p>
                             <?php get_search_form() ?>
-                            <h2>Últimos posts</h2>
-                            <p>Veja as últimas postagens</p>
-                            <?php the_widget('WP_Widget_Recent_Posts'); ?>
+                            <br>
+                            <?php the_widget('WP_Widget_Recent_Posts', array('title' => 'Últimos posts','number' => 3)); ?>
                         </div>
                     </div>
                 </div>
