@@ -18,6 +18,10 @@ h4{ font-size: 18px; margin-top: 0;}
 /* Header - Barra Topo */
 .barra-topo{ background: #b9121b; color: #fff; padding: 15px 0; }
 
+/* Redes Sociais */
+.redes-sociais ul{ padding: 0; margin: 0; }
+.redes-sociais ul li{ list-style: none; display: inline; margin: 0 5px 0; }
+
 /* Header - Menu Principal */
 .area-menu{ background: #f3f3f3; padding: 15px 0; }
 .menu-principal ul{ list-style: none; padding: 0; margin: 0; font-size: 28px; }

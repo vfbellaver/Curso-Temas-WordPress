@@ -53,6 +53,17 @@ if (function_exists('register_sidebar')) {
             'after_title' => '</h2>',
         )
     );
+    register_sidebar(
+        array(
+            'name' => 'Redes Sociais',
+            'id' => 'redes-sociais',
+            'description' => 'Widget para redes sociais',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h2 class="widget-titulo">',
+            'after_title' => '</h2>',
+        )
+    );
 }
 
 // Alterar o numero de itens por pagina no blog
