@@ -5,7 +5,43 @@
                 <?php motoPressSlider( "home-slider" ) ?>
             </section>
             <section class="servicos">
-                <div class="container">Serviços</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="servicos-item">
+                                <div class="servicos-img">
+                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servicos1')); ?>" alt="">
+                                </div>
+                                <div class="servicos-desc">
+                                    <h2>Título</h2>
+                                    <p>Descrição</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="servicos-item">
+                                <div class="servicos-img">
+                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servicos2')); ?>" alt="">
+                                </div>
+                                <div class="servicos-desc">
+                                    <h2>Título</h2>
+                                    <p>Descrição</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="servicos-item">
+                                <div class="servicos-img">
+                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servicos3')); ?>" alt="">
+                                </div>
+                                <div class="servicos-desc">
+                                    <h2>Título</h2>
+                                    <p>Descrição</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="meio">
                 <div class="container">

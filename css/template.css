@@ -30,6 +30,14 @@ h4{ font-size: 18px; margin-top: 0;}
 .menu-principal ul li a{ text-transform: uppercase; color: #4c1b1b;  text-decoration: none;}
 .menu-principal ul  li.current-menu-item a{ color:#e58888; }
 
+/* Serviços */
+.servicos{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }
+.servicos h1{ text-align: center; }
+.servicos .servicos-desc, .servicos .servicos-img{ text-align: center; }
+.servicos .servicos-desc h2{text-transform: uppercase; font-size: 90%; color: #f6e497;}
+.servicos .servicos-img{ padding: 15px 0; }
+.servicos .servicos-img img{ border: 15px solid #FFF; }
+
 /* Slide */
 
 /* Mapa */
