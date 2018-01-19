@@ -1,4 +1,9 @@
 <?php
+
+// Incluindo arquivo do customizer
+require get_template_directory().'/inc/customizer.php';
+
+// Remove versão do wordpress
 remove_action('wp_head', 'wp_generator');
 
 // Funcao para carregamento dos scripts
@@ -82,8 +87,7 @@ function num_itens_blog($query)
 // Mostrar telefone se ele estiver no celular, na página de contato.
 function mostrar_telefone()
 {
-    if(wp_is_mobile())
-    {
+    if (wp_is_mobile()) {
         $resultado = '<div class="telefone">
                         <p>Ligue agora: <a href="tel:06799999999">(067) 99999-9999</a></p>
                       </div>';
@@ -92,5 +96,5 @@ function mostrar_telefone()
     }
 }
 
-add_shortcode('meutelefone','mostrar_telefone');
+add_shortcode('meutelefone', 'mostrar_telefone');
 
