@@ -30,8 +30,38 @@ function meupersonalizador($wp_customize)
             'description'   => 'Seção para os serviços'
         ));
 
-    // Serviço 1
-    $wp_customize->add_setting('set_servicos1',
+    /*------------------------------------------------------------*/
+
+    // Serviço 1 - Titulo
+    $wp_customize->add_setting('set_servico1_titulo',
+        array(
+            'default'   => ''
+        ));
+    $wp_customize->add_control('ctrl_servico1_titulo',
+        array(
+            'label'         => 'Título para o serviço 1',
+            'description'   => 'Informe o título',
+            'section'       => 'sec_servicos',
+            'settings'      => 'set_servico1_titulo',
+            'type'          => 'text'
+        ));
+
+    // Serviço 1 - Descrição
+    $wp_customize->add_setting('set_servico1_descricao',
+        array(
+            'default'   => ''
+        ));
+    $wp_customize->add_control('ctrl_servico1_descricao',
+        array(
+            'label'         => 'Descrição para o serviço 1',
+            'description'   => 'Informe a descrição',
+            'section'       => 'sec_servicos',
+            'settings'      => 'set_servico1_descricao',
+            'type'          => 'textarea'
+        ));
+
+    // Serviço 1 - Imagem
+    $wp_customize->add_setting('set_servico1',
         array(
             'default'   => ''
         ));
@@ -42,11 +72,42 @@ function meupersonalizador($wp_customize)
             'width'     => 200,
             'height'    => 200,
             'section'       => 'sec_servicos',
-            'settings'      => 'set_servicos1',
+            'settings'      => 'set_servico1',
         )));
 
-    // Serviço 2
-    $wp_customize->add_setting('set_servicos2',
+
+    /*------------------------------------------------------------*/
+    // Serviço 2 - Titulo
+    $wp_customize->add_setting('set_servico2_titulo',
+        array(
+            'default'   => ''
+        ));
+    $wp_customize->add_control('ctrl_servico2_titulo',
+        array(
+            'label'         => 'Título para o serviço 2',
+            'description'   => 'Informe o título',
+            'section'       => 'sec_servicos',
+            'settings'      => 'set_servico2_titulo',
+            'type'          => 'text'
+        ));
+
+    // Serviço 2 - Descrição
+    $wp_customize->add_setting('set_servico2_descricao',
+        array(
+            'default'   => ''
+        ));
+    $wp_customize->add_control('ctrl_servico2_descricao',
+        array(
+            'label'         => 'Descrição para o serviço 2',
+            'description'   => 'Informe a descrição',
+            'section'       => 'sec_servicos',
+            'settings'      => 'set_servico2_descricao',
+            'type'          => 'textarea'
+        ));
+
+
+    // Serviço 2 - Imagem
+    $wp_customize->add_setting('set_servico2',
         array(
             'default'   => ''
         ));
@@ -57,11 +118,40 @@ function meupersonalizador($wp_customize)
             'width'     => 200,
             'height'    => 200,
             'section'       => 'sec_servicos',
-            'settings'      => 'set_servicos2',
+            'settings'      => 'set_servico2',
         )));
 
-    // Serviço 3
-    $wp_customize->add_setting('set_servicos3',
+
+    /*------------------------------------------------------------*/
+    // Serviço 3 - Titulo
+    $wp_customize->add_setting('set_servico3_titulo',
+        array(
+            'default'   => ''
+        ));
+    $wp_customize->add_control('ctrl_servico3_titulo',
+        array(
+            'label'         => 'Título para o serviço 3',
+            'description'   => 'Informe o título',
+            'section'       => 'sec_servicos',
+            'settings'      => 'set_servico3_titulo',
+            'type'          => 'text'
+        ));
+
+    // Serviço 3 - Descrição
+    $wp_customize->add_setting('set_servico3_descricao',
+        array(
+            'default'   => ''
+        ));
+    $wp_customize->add_control('ctrl_servico3_descricao',
+        array(
+            'label'         => 'Descrição para o serviço 3',
+            'description'   => 'Informe a descrição',
+            'section'       => 'sec_servicos',
+            'settings'      => 'set_servico3_descricao',
+            'type'          => 'textarea'
+        ));
+    // Serviço 3 - Imagem
+    $wp_customize->add_setting('set_servico3',
         array(
             'default'   => ''
         ));
@@ -72,7 +162,7 @@ function meupersonalizador($wp_customize)
             'width'     => 200,
             'height'    => 200,
             'section'       => 'sec_servicos',
-            'settings'      => 'set_servicos3',
+            'settings'      => 'set_servico3',
         )));
 }
 

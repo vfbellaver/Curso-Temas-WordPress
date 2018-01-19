@@ -6,37 +6,38 @@
             </section>
             <section class="servicos">
                 <div class="container">
+                    <h1>Serviços</h1>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="servicos-item">
                                 <div class="servicos-img">
-                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servicos1')); ?>" alt="">
+                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servico1')); ?>" alt="">
                                 </div>
                                 <div class="servicos-desc">
-                                    <h2>Título</h2>
-                                    <p>Descrição</p>
+                                    <h2><?php echo get_theme_mod('set_servico1_titulo')?></h2>
+                                    <p><?php echo get_theme_mod('set_servico1_descricao')?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="servicos-item">
                                 <div class="servicos-img">
-                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servicos2')); ?>" alt="">
+                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servico2')); ?>" alt="">
                                 </div>
                                 <div class="servicos-desc">
-                                    <h2>Título</h2>
-                                    <p>Descrição</p>
+                                    <h2><?php echo get_theme_mod('set_servico2_titulo')?></h2>
+                                    <p><?php echo get_theme_mod('set_servico2_descricao')?></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="servicos-item">
                                 <div class="servicos-img">
-                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servicos3')); ?>" alt="">
+                                    <img src="<?php echo wp_get_attachment_url(get_theme_mod('set_servico3')); ?>" alt="">
                                 </div>
                                 <div class="servicos-desc">
-                                    <h2>Título</h2>
-                                    <p>Descrição</p>
+                                    <h2><?php echo get_theme_mod('set_servico3_titulo')?></h2>
+                                    <p><?php echo get_theme_mod('set_servico3_descricao')?></p>
                                 </div>
                             </div>
                         </div>
