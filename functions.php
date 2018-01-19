@@ -1,5 +1,5 @@
 <?php
-remove_action('wp_head','wp_generator') ;
+remove_action('wp_head', 'wp_generator');
 
 // Funcao para carregamento dos scripts
 function carrega_scripts()
@@ -13,6 +13,7 @@ function carrega_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'carrega_scripts');
+add_action('pre_get_posts', 'num_itens_blog', 1);
 
 // Funcao para carregamento do menu
 register_nav_menus(
@@ -69,12 +70,27 @@ if (function_exists('register_sidebar')) {
 // Alterar o numero de itens por pagina no blog
 function num_itens_blog($query)
 {
-    if(is_admin() || ! $query->is_main_query())
+    if (is_admin() || !$query->is_main_query())
         return;
     // verificando  se estamos na pagina BLOG
-    if(is_home() || is_search()){
-        $query->set('posts_per_page',2);
+    if (is_home() || is_search()) {
+        $query->set('posts_per_page', 2);
         return;
     }
 }
-add_action('pre_get_posts','num_itens_blog',1);
+
+// Mostrar telefone se ele estiver no celular, na página de contato.
+function mostrar_telefone()
+{
+    if(wp_is_mobile())
+    {
+        $resultado = '<div class="telefone">
+                        <p>Ligue agora: <a href="tel:06799999999">(067) 99999-9999</a></p>
+                      </div>';
+
+        return $resultado;
+    }
+}
+
+add_shortcode('meutelefone','mostrar_telefone');
+
