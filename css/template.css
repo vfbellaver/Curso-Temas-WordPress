@@ -29,6 +29,7 @@ h4{ font-size: 18px; margin-top: 0;}
 .menu-principal ul li:last-child{ margin: 0; }
 .menu-principal ul li a{ text-transform: uppercase; color: #4c1b1b;  text-decoration: none;}
 .menu-principal ul  li.current-menu-item a{ color:#e58888; }
+.menu-menu-topo-container{padding:35px 0 }
 
 /* Serviços */
 .servicos{ background: #4c1b1b; padding: 25px 0; color: #fefefe; }

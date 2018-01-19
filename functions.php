@@ -34,6 +34,10 @@ add_theme_support('custom-header');
 add_theme_support('post-thumbnails');
 add_theme_support('post-formats', array('video', 'image'));
 add_theme_support('html5', array('search-form'));
+add_theme_support('custom-logo', array(
+        'height'    => 100,
+        'width'     => 200
+    ));
 
 // Registrando pagina lateral
 if (function_exists('register_sidebar')) {
